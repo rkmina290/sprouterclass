@@ -1,4 +1,7 @@
-def listOf(*elem):
-    return elem
-
-print(listOf(1,2,3,4,5,6,7,8,9,10,1123,1546,2154))
+def get_sum(start, end):
+    sum=0
+    for i in range(start, end+1):
+        sum += i
+    return sum
+print(get_sum(1,10))
+print(get_sum(1,20))
