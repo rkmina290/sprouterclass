@@ -1,7 +1,4 @@
-
 a,b=(list(map(int, input().split())))
 
-print(a//b)
-print(a//b)
-
-
+if a>=1 and b<=300:
+    print(a * b -1)

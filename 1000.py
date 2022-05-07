@@ -1,7 +1,3 @@
-
 a,b=(list(map(int, input().split())))
-
-print(a//b)
-print(a//b)
-
-
+if 0 < a and b < 10:
+    print(a + b)
